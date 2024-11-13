@@ -1,17 +1,12 @@
-dependencies {
-    implementation("androidx.legacy:legacy-support-v4:1.0.0")
-    implementation("com.google.android.material:material:1.4.0")
-    implementation("androidx.recyclerview:recyclerview:1.2.1")
-}
 // use an integer for version numbers
-version = -1
+version = 8
 
 
 cloudstream {
     // All of these properties are optional, you can safely remove them
 
-    description = "Lorem ipsum"
-    authors = listOf("Cloudburst")
+    description = "The best free NSFW site"
+    authors = listOf("KEN", "Jace")
 
     /**
     * Status int as the following:
@@ -20,19 +15,14 @@ cloudstream {
     * 2: Slow
     * 3: Beta only
     * */
-    status = 1
+    status = 1 // will be 3 if unspecified
 
-    tvTypes = listOf("Movie")
+    // List of video source types. Users are able to filter for extensions in a given category.
+    // You can find a list of avaliable types here:
+    // https://recloudstream.github.io/cloudstream/html/app/com.lagradost.cloudstream3/-tv-type/index.html
+    tvTypes = listOf("NSFW")
 
-    requiresResources = true
+    iconUrl = "https://www.google.com/s2/favicons?domain=xvideos.com&sz=%size%"
+
     language = "en"
-
-    // random cc logo i found
-    iconUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png"
-}
-
-android {
-    buildFeatures {
-        viewBinding = true
-    }
 }
