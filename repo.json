@@ -1,0 +1,8 @@
+{
+  "name": "Kenola86",
+  "description": "<test test>",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "<https://github.com/Kenola86/TestPlugins/new/builds/plugins.json>"
+  ]
+}
