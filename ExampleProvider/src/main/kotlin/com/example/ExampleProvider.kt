@@ -5,7 +5,7 @@ import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.MainAPI
 import com.lagradost.cloudstream3.SearchResponse
 
-class ExampleProvider(val plugin: TestPlugin) : MainAPI() { // all providers must be an intstance of MainAPI
+class ExampleProvider(val plugin: example)
 class Motherless : MainAPI() {
     override var mainUrl              = "https://motherless.com"
     override var name                 = "Motherless"
