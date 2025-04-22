@@ -4,7 +4,7 @@ import org.jsoup.nodes.Element
 import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.utils.*
 
-class Motherless : MainAPI() {
+class ExamplePlugin : MainAPI() {
     override var mainUrl              = "https://motherless.com"
     override var name                 = "Motherless"
     override val hasMainPage          = true
